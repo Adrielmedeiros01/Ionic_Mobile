@@ -1,0 +1,67 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Cadastro
+    </ion-title>
+  </ion-toolbar>
+
+</ion-header>
+
+
+<ion-content [fullscreen]="true">
+
+  <ion-list>
+    <ion-item>
+      <ion-input type="text" label="Nome:" placeholder="Fulano de tal"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" label="E-mail" placeholder="@gmail.com"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="date" label="Nascimento:" value="53703"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="number" placeholder="Digite apenas números" labelPlacement="stacked" label="RG"></ion-input>
+    </ion-item>
+
+
+  <ion-list>
+    <ion-item>
+      <ion-select label="Cor" placeholder="Qual cor você se identifica?">
+        <ion-select-option value="apple">Branco</ion-select-option>
+        <ion-select-option value="banana">Preto</ion-select-option>
+        <ion-select-option value="orange">Pardo</ion-select-option>
+        <ion-select-option value="orange">Amarelo</ion-select-option>
+        <ion-select-option value="orange">Indígena</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+
+
+
+    <ion-item>
+      <ion-toggle>Receber propagandas</ion-toggle><br /><br />
+    </ion-item>
+
+    <ion-item>
+      <ion-range min="0" max="1800" labelPlacement="start" label="Faixa salarial"></ion-range>
+
+    </ion-item>
+
+    <ion-item>
+      <ion-checkbox>Concordo com os termos</ion-checkbox>
+
+
+
+    </ion-item>
+
+
+
+
+
+  </ion-list>
+
+
+
+</ion-content>
