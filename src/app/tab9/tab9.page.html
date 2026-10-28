@@ -1,0 +1,86 @@
+<ion-header  [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+
+
+  <!-- <ion-item>
+    <ion-chip (click)="rockfunc()">
+      <ion-label>Rock</ion-label>
+    </ion-chip>
+    <ion-chip (click)="forrofunc()">
+      <ion-label>Forró</ion-label>
+    </ion-chip>
+    <ion-chip (click)="sambafunc()">
+      <ion-label>Samba</ion-label>
+    </ion-chip>
+  </ion-item>
+
+
+  @if (escolha) {
+    <ion-item>
+      <ion-label>Escolha uma opção.</ion-label>
+    </ion-item>
+  }
+
+
+  @if(rock){
+    <ion-card>
+      <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+      <ion-card-header>
+        <ion-card-title>Rock</ion-card-title>
+        <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+      </ion-card-header>
+
+      <ion-card-content>
+        Here's a small text description for the card content. Nothing more, nothing less.
+      </ion-card-content>
+    </ion-card>
+  }
+
+  @if (forro) {
+
+    <ion-card>
+      <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+      <ion-card-header>
+        <ion-card-title>Forró</ion-card-title>
+        <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+      </ion-card-header>
+
+      <ion-card-content>
+        Here's a small text description for the card content. Nothing more, nothing less.
+      </ion-card-content>
+    </ion-card>
+  }
+
+
+
+  @if(samba) {
+
+    <ion-card>
+      <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+      <ion-card-header>
+        <ion-card-title>Samba</ion-card-title>
+        <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+      </ion-card-header>
+
+      <ion-card-content>
+        Here's a small text description for the card content. Nothing more, nothing less.
+      </ion-card-content>
+    </ion-card>
+  } -->
+
+
+
+  @for(i of alunos; track i){
+    <ion-item>
+      <ion-label>{{i}}</ion-label>
+    </ion-item>
+
+  }
+
+</ion-content>
